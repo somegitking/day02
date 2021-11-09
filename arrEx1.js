@@ -11,7 +11,7 @@
 // arr[3] = '블랙 팬서'
 // console.log(arr)
 //
-// arr.push("아이언맨") //추가
+// arr.push("아이언맨") //배열추가
 // arr.push("베트맨")
 //
 // console.log(arr)
@@ -20,7 +20,7 @@
 // console.log(arr)
 
 const arr1 = ['타노스','블랙 위도우' , '블랙 팬서']
-console.log(arr1)
+console.log(arr1) //전체 배열 추가
 
 for(let i = 0 ; i < arr1.length ; i++){
 

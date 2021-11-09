@@ -4,33 +4,27 @@
 // 4. 아니면 저장 arr.push
 // 5. 배열에 6개 저장되면 저장
 
+let lottoCnt = 0
+let lottoArr = []
 
 while(true){
-    let lottoCnt = 0
-    let lottoArr = []
-
     if(lottoCnt == 6)
     {
         break //6개 뽑으면 종료
     }else{
         //새로 뽑은 것이 기존 번호에 있는지 확인
-
-        let lNo = parseInt(Math.random() * 100 ) % 46
-        for(let i = 0; i <= Cnt ; i==)
+        let lotNo = parseInt(Math.random()*100) %45 +1
+        console.log(lotNo)
+        if(lottoArr.includes(lotNo))
         {
-            if(lottoArr[i] == lNo)
+            continue
+
+        }else{
+            lottoArr.push(lotNo)
 
         }
-
-        Cnt++
-
-
+        lottoCnt++
     }
-
-
-
 }
-
-
-
-    
+console.log(lottoArr)
+console.log(lottoArr.length)
